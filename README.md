@@ -10,6 +10,7 @@ pip install -e .
 ```
 
 The next step is to load the application:
+
 Unix Bash
 ```
 export FLASK_APP=flaskr
