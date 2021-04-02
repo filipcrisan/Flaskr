@@ -1,5 +1,5 @@
 import pytest
-from twitter_clone.db import get_db
+from flaskr.db import get_db
 
 def test_index(client, auth):
 	response = client.get('/')

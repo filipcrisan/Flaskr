@@ -1,6 +1,6 @@
 import pytest
 from flask import g, session
-from twitter_clone.db import get_db
+from flaskr.db import get_db
 
 
 def test_register(client, app):
